@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(240, 236, 236);
+    margin-left: 15px;
+    
+}
+
+.caja {
+    
+    background-color: white;
+    font-size: 22px;
+    border-left: solid rgb(199, 198, 198);
+}
+.cabecera {
+
+    margin-left: 5px;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-color: #d7d7d7;
+    border-left: 5px;
+}
+
+.medio {
+    
+    margin-left: 5px;
+    padding: 5px;
+    padding-left: 5px;
+    background-color: white;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 1px;
+    border-color: #d7d7d7;
+
+
+}
+
+.acept {
+    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color: blue;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.cancel {
+    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+    background-color:rgb(200, 197, 197);
+    color: #ffffff;
+    font-size: 1em;
+}
