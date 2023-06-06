@@ -1,0 +1,42 @@
+*{margin: 0px;padding: 0px;}
+
+body{
+    margin-left: 20px;
+}
+h1{
+    color: red;
+}
+
+.cabecera{
+width: 100%; /*anchura*/
+height: 25px;  /*Altura*/
+background-color: rgb(27, 144, 183);
+border: 10px solid red;
+margin: 15px;
+margin-top: 15px;
+margin-bottom: 40px;
+margin-left: 24px;
+margin-right: 10px;
+padding: 20px;
+padding-bottom: 34px;
+float: left;
+
+}
+
+.cuerpo p{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    font-weight:bold;
+    
+    font-size: 20px;
+    line-height: 235px;
+}
+
+.clearfix{
+    float: none;
+    clear:both;
+}
+
+
+

@@ -1,0 +1,49 @@
+@font-face { /* Así se importan fuentes fisicamente*/
+    font-family: 'robotoFuenteCustom';src: url(/Master_CSS/fuentes/fonts/Roboto-Light.ttf);
+    font-family: 'robotoBlack';src: url(/Master_CSS/fuentes/fonts/Roboto-Black.ttf);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h3{
+    font-family: robotoBlack;
+font-size: 25px;
+font-weight: lighter;
+}
+
+p{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.font-family{
+font-family:'robotoFuenteCustom';
+}
+
+
+h1 {
+    border: 5px solid rgba(255, 8, 8, 0.2);
+    border-radius: 4px;
+    background: radial-gradient(
+      100% 100% at 48% 50%,
+      rgba(209, 174, 48, 1) 12%,
+      rgba(179, 24, 7, 1) 84%
+    );
+    background-blend-mode: normal;
+    transform: translate(0px, 0px) scale(1.1, 1) skew(0deg, -10deg);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    backdrop-filter: invert(0%);
+    -webkit-backdrop-filter: invert(0%);
+    width: 300px;
+  }
+  
+  h3 {
+    transform: rotate(-10grad);
+  }
+  
